@@ -1,0 +1,19 @@
+.myBtn {
+  /* width: 310px; */
+  padding: 0px 20px;
+  outline:none;
+  text-align: center;
+  background: #fff;
+  border: 3px solid rgb(221, 28, 33);
+  color: rgb(221, 28, 33);
+  letter-spacing:1px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.myBtn:hover {
+  color:white;
+  background: rgb(221, 28, 33);
+}
+.myBtn:active {
+  letter-spacing: 2px ;
+}

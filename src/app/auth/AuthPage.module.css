@@ -1,0 +1,27 @@
+
+.container {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+}
+
+
+.loading {
+    position: relative;
+    left: 47%;
+    top: 50%;
+}
